@@ -7,3 +7,6 @@ __pycache__/
 # Debug
 debug.log
 
+# Chromedriver
+chromedriver.exe
+

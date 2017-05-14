@@ -2,7 +2,7 @@
 """Test script"""
 from insta_core import Basic_Instagram_Core
 
-session = Basic_Instagram_Core('maryjane3158', 'A5rwsYDe')
+session = Basic_Instagram_Core('login', 'password')
 session.login()
 session.set_restriction(max_likes=5, max_comments=50, max_follows=50)
 session.get_folowers_from('anastasiya_fukkacumi', 20)

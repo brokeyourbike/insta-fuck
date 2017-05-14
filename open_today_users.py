@@ -24,7 +24,7 @@ def show_today_luckies(num=5):
 
 
 def check_for_following():
-	session = Basic_Instagram_Core('maryjane3158', 'A5rwsYDe')
+	session = Basic_Instagram_Core('login', 'password')
 	session.login()
 	session.check_for_following()
 	session.end()
